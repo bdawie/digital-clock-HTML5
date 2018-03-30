@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #eee;
+}
+
+.main{
+    width: 400px;
+    height: 300px;
+    margin: 100px auto;
+    position: relative;
+    background:#333;
+    padding: 30px;
+}
+.badge{
+    width:120px;
+    position: absolute;
+    top:-15px;
+    left:40%;
+    background: #e66357;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.clock{
+    background-color: #eee;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 25%;
+    font-size: 55px;
+    border-radius: 7px;
+    font-family: 'Orbitron'
+}
